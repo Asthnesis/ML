@@ -65,7 +65,7 @@ trained on all three regions pooled:
 
 - **Validation accuracy: 0.9340**
 - Full classification report (precision/recall/F1 per class) printed by
-  `train.py` at run time.
+  `main.py` at run time.
 
 This is a single split, not cross-validated — the number will move
 somewhat with a different random seed. Treat it as a point estimate, not
@@ -75,7 +75,7 @@ a precise benchmark.
 
 ```
 .
-├── train.py          # full pipeline: load, engineer features, train, validate, predict
+├── main.py          # full pipeline: load, engineer features, train, validate, predict
 ├── requirements.txt
 ├── data/              # not tracked in git — see data/README.md
 └── README.md
@@ -85,7 +85,7 @@ a precise benchmark.
 
 ```bash
 pip install -r requirements.txt
-python train.py
+python main.py
 ```
 
 Expects the competition CSVs in `data/` (see Data section above).

@@ -17,4 +17,4 @@ SampleSubmission.csv
 VariableDefinitions.csv
 ```
 
-`train.py` reads directly from these filenames.
+`main.py` reads directly from these filenames.
