@@ -3,4 +3,4 @@ plastic_mapping/data/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-models/
+plastic_mapping/models/
