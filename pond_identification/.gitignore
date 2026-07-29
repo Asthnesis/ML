@@ -1,0 +1,5 @@
+/.venv
+pond_identification/data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
